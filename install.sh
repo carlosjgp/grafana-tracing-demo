@@ -104,3 +104,5 @@ spec:
     app.kubernetes.io/name: grafana-image-renderer
   type: ClusterIP
 EOF
+
+kubectl apply -f k8s-deployments/observability-demo-app.yaml
